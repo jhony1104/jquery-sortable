@@ -150,9 +150,9 @@
     right:0
   },
   eventNames = {
-    start: "touchstart.sortable mousedown.sortable",
-    drop: "touchend.sortable touchcancel.sortable mouseup.sortable",
-    drag: "touchmove.sortable mousemove.sortable",
+    start: "touchstart.sortable mousedown.sortable pointerdown.sortable",
+    drop: "touchend.sortable touchcancel.sortable mouseup.sortable pointercancel.sortable pointerup.sortable",
+    drag: "touchmove.sortable mousemove.sortable pointermove.sortable",
     scroll: "scroll.sortable"
   },
   subContainerKey = "subContainers"
